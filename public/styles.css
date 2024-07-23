@@ -1,0 +1,45 @@
+body {
+  padding: 50px;
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+a:link,
+a:visited {
+  color: #00b7ff;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.msg-board {
+  max-width: 75ch;
+  margin-top: 1rem;
+}
+
+.msg {
+  background-color: rgb(244, 244, 245);
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.user {
+  font-weight: 700;
+}
+
+.text {
+  font-size: 1rem;
+}
+
+.added {
+  font-style: italic;
+}
+
+.form-field {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 60ch;
+}
